@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section{
+        width:100vw;
+        height:100vh;
+        /* background-color: rgb(red, green, blue); */
+    }
+.sec{
+    width:40vw;
+    height:70vh;
+    position:absolute;
+    /* background-color: aliceblue; */
+    background-color: rgb(77, 121, 119,0.5);
+    border-radius: 20px;
+    box-shadow: 10px 15px rgb(0, 5, 6);
+    left:490px;
+    top: 150px;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+input{
+    display:block;
+    margin: auto;
+    position: relative;
+    left:25px;
+    margin-bottom:30px;
+    width:350px;
+    height:40px;
+    border-radius: 10px;
+    border: 2px rgb(12, 12, 14) solid;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
+}
+img{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+::placeholder{
+font-size: large;
+position: relative;
+left:130px;
+color: rgb(246, 241, 241);
+}
+.sec h2{
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(235, 242, 240);
+    text-shadow:  2px 2px 5px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+</style>
+<body>
+    <div class="section">
+        <img src="eagle.jpg" alt="">
+        <div class="sec">
+            <h2>Explore With Us</h2>
+        <form >
+            
+            <input type="text" placeholder=" Enter Name" >
+            <input type="email" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+            <input class="btn" style="font-size: large;" type="submit" placeholder="Submit">
+        </form>
+</div>
+    </div>
+    <div>
+        
+    </div>
+</body>
+</html>
